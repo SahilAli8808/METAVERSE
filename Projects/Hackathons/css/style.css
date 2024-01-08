@@ -4,52 +4,23 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
-.navbar ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-.navbar ul li{
-    padding: 23px;
-    height: 25px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-.navbar ul li input{
-    font-size: 20px;
-    padding: 0 10px;
-}
-
-.navbar ul li a{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-}
-.search{
-    width: 30vw;
-}
-#nav-btn{
-    width: 80px;
-    font-size: 17px;
-    cursor: pointer;
-    background: linear-gradient(#0b0826, #bb00ff);
-    color: white;
-    font-family: 'Archivo Narrow';
-    border-color: whitesmoke;
-}
-#nav-btn:hover{
-    background: linear-gradient(rgb(240, 233, 233), rgb(51, 51, 241));
-}
-.container{
+body{
     background-color: black;
 }
+.container1{
+    background-color: black;
+    margin-top:-100px;
+}
 .content{
-    margin: 100px 300px;
+    margin:100px 300px;
 }
 .content h1{
     color: white;
     font-size: 90px;
     font-family: 'Work Sans', sans-serif;
+    padding-top:115px;
 }
 .content p{
     color: whitesmoke;
@@ -68,6 +39,10 @@ h1:hover{
     width: 22%;
     border-radius: 5px;
     background-color: rgb(252, 250, 250);
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .card:hover{
     box-shadow: 0 10px 20px 0 rgba(255, 0, 0, 0.945);
@@ -83,6 +58,9 @@ img{
 .card-text{
     font-family: 'Archivo Narrow', sans-serif;
     margin: 10px 0;
+}
+.ihtml{
+ text-align: center;
 }
 .wrap{
     display: flex;
